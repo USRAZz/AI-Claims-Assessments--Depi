@@ -11,11 +11,25 @@
         "start_date": "2025-01-01",
         "end_date": "2026-12-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 50000, "deductible": 1000, "exclusions": ["racing", "commercial use"]}
+          "auto": {
+            "covered": true,
+            "limit": 50000,
+            "deductible": 1000,
+            "exclusions": [
+              "racing",
+              "commercial use"
+            ]
+          }
         }
       },
       "claim_history": [
-        {"claim_id": "H-1001", "date": "2025-03-14", "type": "auto", "amount": 3000, "status": "paid"}
+        {
+          "claim_id": "H-1001",
+          "date": "2025-03-14",
+          "type": "auto",
+          "amount": 3000,
+          "status": "paid"
+        }
       ]
     },
     "C002": {
@@ -28,7 +42,15 @@
         "start_date": "2024-06-01",
         "end_date": "2026-12-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 500000, "deductible": 5000, "exclusions": ["racing", "commercial use"]}
+          "auto": {
+            "covered": true,
+            "limit": 500000,
+            "deductible": 5000,
+            "exclusions": [
+              "racing",
+              "commercial use"
+            ]
+          }
         }
       },
       "claim_history": []
@@ -43,11 +65,24 @@
         "start_date": "2025-02-01",
         "end_date": "2026-03-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 40000, "deductible": 1000, "exclusions": ["racing"]}
+          "auto": {
+            "covered": true,
+            "limit": 40000,
+            "deductible": 1000,
+            "exclusions": [
+              "racing"
+            ]
+          }
         }
       },
       "claim_history": [
-        {"claim_id": "H-1003", "date": "2025-11-02", "type": "auto", "amount": 2500, "status": "paid"}
+        {
+          "claim_id": "H-1003",
+          "date": "2025-11-02",
+          "type": "auto",
+          "amount": 2500,
+          "status": "paid"
+        }
       ]
     },
     "C004": {
@@ -60,7 +95,15 @@
         "start_date": "2025-05-01",
         "end_date": "2027-04-30",
         "coverage": {
-          "property": {"covered": true, "limit": 200000, "deductible": 2000, "exclusions": ["flood", "war"]}
+          "property": {
+            "covered": true,
+            "limit": 200000,
+            "deductible": 2000,
+            "exclusions": [
+              "flood",
+              "war"
+            ]
+          }
         }
       },
       "claim_history": []
@@ -75,13 +118,39 @@
         "start_date": "2025-09-01",
         "end_date": "2026-12-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 60000, "deductible": 1500, "exclusions": ["racing", "commercial use"]}
+          "auto": {
+            "covered": true,
+            "limit": 60000,
+            "deductible": 1500,
+            "exclusions": [
+              "racing",
+              "commercial use"
+            ]
+          }
         }
       },
       "claim_history": [
-        {"claim_id": "H-1005A", "date": "2026-08-05", "type": "auto", "amount": 4000, "status": "paid"},
-        {"claim_id": "H-1005B", "date": "2026-09-02", "type": "auto", "amount": 5200, "status": "paid"},
-        {"claim_id": "H-1005C", "date": "2026-09-28", "type": "auto", "amount": 6100, "status": "under_review"}
+        {
+          "claim_id": "H-1005A",
+          "date": "2026-08-05",
+          "type": "auto",
+          "amount": 4000,
+          "status": "paid"
+        },
+        {
+          "claim_id": "H-1005B",
+          "date": "2026-09-02",
+          "type": "auto",
+          "amount": 5200,
+          "status": "paid"
+        },
+        {
+          "claim_id": "H-1005C",
+          "date": "2026-09-28",
+          "type": "auto",
+          "amount": 6100,
+          "status": "under_review"
+        }
       ]
     },
     "C006": {
@@ -94,7 +163,14 @@
         "start_date": "2026-09-01",
         "end_date": "2027-08-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 45000, "deductible": 1000, "exclusions": ["racing"]}
+          "auto": {
+            "covered": true,
+            "limit": 45000,
+            "deductible": 1000,
+            "exclusions": [
+              "racing"
+            ]
+          }
         }
       },
       "claim_history": []
@@ -109,11 +185,25 @@
         "start_date": "2025-03-01",
         "end_date": "2026-12-31",
         "coverage": {
-          "auto": {"covered": true, "limit": 80000, "deductible": 2000, "exclusions": ["racing", "commercial use"]}
+          "auto": {
+            "covered": true,
+            "limit": 80000,
+            "deductible": 2000,
+            "exclusions": [
+              "racing",
+              "commercial use"
+            ]
+          }
         }
       },
       "claim_history": [
-        {"claim_id": "H-1007", "date": "2025-12-10", "type": "auto", "amount": 7000, "status": "paid"}
+        {
+          "claim_id": "H-1007",
+          "date": "2025-12-10",
+          "type": "auto",
+          "amount": 7000,
+          "status": "paid"
+        }
       ]
     },
     "C008": {
@@ -126,7 +216,14 @@
         "start_date": "2026-09-15",
         "end_date": "2027-09-14",
         "coverage": {
-          "travel": {"covered": true, "limit": 30000, "deductible": 500, "exclusions": ["extreme sports"]}
+          "travel": {
+            "covered": true,
+            "limit": 30000,
+            "deductible": 500,
+            "exclusions": [
+              "extreme sports"
+            ]
+          }
         }
       },
       "claim_history": []
@@ -141,12 +238,33 @@
         "start_date": "2025-01-15",
         "end_date": "2026-12-31",
         "coverage": {
-          "health": {"covered": true, "limit": 100000, "deductible": 1500, "exclusions": ["cosmetic surgery"]},
-          "property": {"covered": true, "limit": 150000, "deductible": 2000, "exclusions": ["flood", "war"]}
+          "health": {
+            "covered": true,
+            "limit": 100000,
+            "deductible": 1500,
+            "exclusions": [
+              "cosmetic surgery"
+            ]
+          },
+          "property": {
+            "covered": true,
+            "limit": 150000,
+            "deductible": 2000,
+            "exclusions": [
+              "flood",
+              "war"
+            ]
+          }
         }
       },
       "claim_history": [
-        {"claim_id": "H-1009", "date": "2025-08-20", "type": "health", "amount": 2200, "status": "paid"}
+        {
+          "claim_id": "H-1009",
+          "date": "2025-08-20",
+          "type": "health",
+          "amount": 2200,
+          "status": "paid"
+        }
       ]
     },
     "C010": {
@@ -159,17 +277,88 @@
         "start_date": "2025-04-01",
         "end_date": "2026-09-30",
         "coverage": {
-          "travel": {"covered": true, "limit": 40000, "deductible": 500, "exclusions": ["extreme sports"]}
+          "travel": {
+            "covered": true,
+            "limit": 40000,
+            "deductible": 500,
+            "exclusions": [
+              "extreme sports"
+            ]
+          }
+        }
+      },
+      "claim_history": []
+    },
+    "C011": {
+      "name": "Amira Nabil",
+      "_scenario": "Routine auto claim: minor parking collision with complete documents.",
+      "_test_claim": "On 2026-10-08 another vehicle hit my parked car, damaging the rear door. The repair estimate is 6500 EGP. Police report, photos, and repair estimate are attached.",
+      "policy": {
+        "policy_number": "P-1011",
+        "status": "active",
+        "start_date": "2025-06-01",
+        "end_date": "2027-05-31",
+        "coverage": {
+          "auto": {
+            "covered": true,
+            "limit": 70000,
+            "deductible": 1200,
+            "exclusions": [
+              "racing",
+              "commercial use"
+            ]
+          }
+        }
+      },
+      "claim_history": []
+    },
+    "C012": {
+      "name": "Mahmoud Fathy",
+      "_scenario": "Routine property claim: accidental pipe leak with complete documents.",
+      "_test_claim": "On 2026-10-06 a bathroom supply pipe leaked and damaged the bedroom wall. Repairs are estimated at 11000 EGP. Photos, repair estimate, and ownership proof are attached.",
+      "policy": {
+        "policy_number": "P-1012",
+        "status": "active",
+        "start_date": "2025-08-01",
+        "end_date": "2027-07-31",
+        "coverage": {
+          "property": {
+            "covered": true,
+            "limit": 180000,
+            "deductible": 2000,
+            "exclusions": [
+              "flood",
+              "war"
+            ]
+          }
         }
       },
       "claim_history": []
     }
   },
   "required_documents": {
-    "auto": ["police_report", "photos", "repair_estimate"],
-    "health": ["medical_report", "invoice", "prescription"],
-    "property": ["photos", "repair_estimate", "ownership_proof"],
-    "travel": ["booking_confirmation", "incident_proof", "receipts"],
-    "other": ["supporting_document"]
+    "auto": [
+      "police_report",
+      "photos",
+      "repair_estimate"
+    ],
+    "health": [
+      "medical_report",
+      "invoice",
+      "prescription"
+    ],
+    "property": [
+      "photos",
+      "repair_estimate",
+      "ownership_proof"
+    ],
+    "travel": [
+      "booking_confirmation",
+      "incident_proof",
+      "receipts"
+    ],
+    "other": [
+      "supporting_document"
+    ]
   }
 }
