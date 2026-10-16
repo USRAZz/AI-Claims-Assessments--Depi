@@ -1,0 +1,175 @@
+{
+  "_note": "ALL DATA IS SYNTHETIC. Fake names, fake policies. Keys starting with _ are for humans and are ignored by the tools.",
+  "customers": {
+    "C001": {
+      "name": "Sara Ahmed",
+      "_scenario": "Routine claim. Everything is fine (happy path).",
+      "_test_claim": "Rear-ended at a traffic light, rear bumper damaged, EGP 8000, with police report, photos and repair estimate attached.",
+      "policy": {
+        "policy_number": "P-1001",
+        "status": "active",
+        "start_date": "2025-01-01",
+        "end_date": "2026-12-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 50000, "deductible": 1000, "exclusions": ["racing", "commercial use"]}
+        }
+      },
+      "claim_history": [
+        {"claim_id": "H-1001", "date": "2025-03-14", "type": "auto", "amount": 3000, "status": "paid"}
+      ]
+    },
+    "C002": {
+      "name": "Omar Hassan",
+      "_scenario": "High-risk: a very large amount. The router should send it to human review.",
+      "_test_claim": "Car totally destroyed in a collision, claimed amount EGP 480000.",
+      "policy": {
+        "policy_number": "P-1002",
+        "status": "active",
+        "start_date": "2024-06-01",
+        "end_date": "2026-12-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 500000, "deductible": 5000, "exclusions": ["racing", "commercial use"]}
+        }
+      },
+      "claim_history": []
+    },
+    "C003": {
+      "name": "Mona Khaled",
+      "_scenario": "Expired policy. Should be flagged and escalated.",
+      "_test_claim": "Windshield cracked by a stone on the highway, EGP 6000.",
+      "policy": {
+        "policy_number": "P-1003",
+        "status": "expired",
+        "start_date": "2025-02-01",
+        "end_date": "2026-03-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 40000, "deductible": 1000, "exclusions": ["racing"]}
+        }
+      },
+      "claim_history": [
+        {"claim_id": "H-1003", "date": "2025-11-02", "type": "auto", "amount": 2500, "status": "paid"}
+      ]
+    },
+    "C004": {
+      "name": "Karim Adel",
+      "_scenario": "Routine claim but documents are missing (submit only photos).",
+      "_test_claim": "Water leak damaged the kitchen ceiling, EGP 15000, with photos only attached.",
+      "policy": {
+        "policy_number": "P-1004",
+        "status": "active",
+        "start_date": "2025-05-01",
+        "end_date": "2027-04-30",
+        "coverage": {
+          "property": {"covered": true, "limit": 200000, "deductible": 2000, "exclusions": ["flood", "war"]}
+        }
+      },
+      "claim_history": []
+    },
+    "C005": {
+      "name": "Nour Samir",
+      "_scenario": "Suspicious pattern: 3 claims in the last 90 days.",
+      "_test_claim": "Phone-related accident damaged the car door, EGP 9000.",
+      "policy": {
+        "policy_number": "P-1005",
+        "status": "active",
+        "start_date": "2025-09-01",
+        "end_date": "2026-12-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 60000, "deductible": 1500, "exclusions": ["racing", "commercial use"]}
+        }
+      },
+      "claim_history": [
+        {"claim_id": "H-1005A", "date": "2026-08-05", "type": "auto", "amount": 4000, "status": "paid"},
+        {"claim_id": "H-1005B", "date": "2026-09-02", "type": "auto", "amount": 5200, "status": "paid"},
+        {"claim_id": "H-1005C", "date": "2026-09-28", "type": "auto", "amount": 6100, "status": "under_review"}
+      ]
+    },
+    "C006": {
+      "name": "Hana Mostafa",
+      "_scenario": "Incident date is BEFORE the policy start date (policy starts 2026-09-01).",
+      "_test_claim": "Car scratched in a parking lot on 2026-08-20, EGP 3000.",
+      "policy": {
+        "policy_number": "P-1006",
+        "status": "active",
+        "start_date": "2026-09-01",
+        "end_date": "2027-08-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 45000, "deductible": 1000, "exclusions": ["racing"]}
+        }
+      },
+      "claim_history": []
+    },
+    "C007": {
+      "name": "Youssef Ali",
+      "_scenario": "Excluded event: damage happened during a racing event.",
+      "_test_claim": "Car crashed during a weekend track racing event, EGP 25000.",
+      "policy": {
+        "policy_number": "P-1007",
+        "status": "active",
+        "start_date": "2025-03-01",
+        "end_date": "2026-12-31",
+        "coverage": {
+          "auto": {"covered": true, "limit": 80000, "deductible": 2000, "exclusions": ["racing", "commercial use"]}
+        }
+      },
+      "claim_history": [
+        {"claim_id": "H-1007", "date": "2025-12-10", "type": "auto", "amount": 7000, "status": "paid"}
+      ]
+    },
+    "C008": {
+      "name": "Laila Farouk",
+      "_scenario": "New customer, no claim history. Also tests a claim type that is NOT covered (health).",
+      "_test_claim": "Hospital visit after a fall, EGP 7000 (her policy covers travel only).",
+      "policy": {
+        "policy_number": "P-1008",
+        "status": "active",
+        "start_date": "2026-09-15",
+        "end_date": "2027-09-14",
+        "coverage": {
+          "travel": {"covered": true, "limit": 30000, "deductible": 500, "exclusions": ["extreme sports"]}
+        }
+      },
+      "claim_history": []
+    },
+    "C009": {
+      "name": "Tarek Mahmoud",
+      "_scenario": "Routine health claim with a full set of documents.",
+      "_test_claim": "Outpatient surgery, EGP 12000, with medical report, invoice and prescription attached.",
+      "policy": {
+        "policy_number": "P-1009",
+        "status": "active",
+        "start_date": "2025-01-15",
+        "end_date": "2026-12-31",
+        "coverage": {
+          "health": {"covered": true, "limit": 100000, "deductible": 1500, "exclusions": ["cosmetic surgery"]},
+          "property": {"covered": true, "limit": 150000, "deductible": 2000, "exclusions": ["flood", "war"]}
+        }
+      },
+      "claim_history": [
+        {"claim_id": "H-1009", "date": "2025-08-20", "type": "health", "amount": 2200, "status": "paid"}
+      ]
+    },
+    "C010": {
+      "name": "Dina Salem",
+      "_scenario": "Routine travel claim; a cancelled policy variant for extra testing.",
+      "_test_claim": "Flight cancelled and luggage delayed, EGP 5000, with booking confirmation, incident proof and receipts.",
+      "policy": {
+        "policy_number": "P-1010",
+        "status": "cancelled",
+        "start_date": "2025-04-01",
+        "end_date": "2026-09-30",
+        "coverage": {
+          "travel": {"covered": true, "limit": 40000, "deductible": 500, "exclusions": ["extreme sports"]}
+        }
+      },
+      "claim_history": []
+    }
+  },
+  "required_documents": {
+    "auto": ["police_report", "photos", "repair_estimate"],
+    "health": ["medical_report", "invoice", "prescription"],
+    "property": ["photos", "repair_estimate", "ownership_proof"],
+    "travel": ["booking_confirmation", "incident_proof", "receipts"],
+    "other": ["supporting_document"]
+  }
+}
